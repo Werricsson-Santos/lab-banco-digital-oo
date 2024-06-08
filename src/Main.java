@@ -14,6 +14,10 @@ public class Main {
 		
 		ag1.criarNovaConta(venilton, TipoConta.CC);
 		ag2.criarNovaConta(wericson, TipoConta.POUPANCA);
+		ag1.criarNovaConta(new Cliente("José"), TipoConta.POUPANCA);
+		ag2.criarNovaConta(new Cliente("Jailson"), TipoConta.CC);
+		ag1.criarNovaConta(new Cliente("Thaís"), TipoConta.CC);
+		ag2.criarNovaConta(new Cliente("Lindalva"), TipoConta.POUPANCA);
 		
 		
 		ag1.listarClientes();

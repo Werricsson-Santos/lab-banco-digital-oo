@@ -45,7 +45,9 @@ public class Banco {
     }
 	
 	public void listarClientes() {
+		System.out.println("Agência: " +this.agencia + ", clientes: {");
 		getClientes().forEach(c -> System.out.println(c.getNome()));
+		System.out.println("}");
 	}
 
 }
